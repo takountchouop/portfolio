@@ -1,0 +1,145 @@
+
+
+/* Media Queries for Mobile */
+@media (max-width: 760px) {
+    .nav{
+         
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--nav-color);
+        top: 0px; 
+        width: 100%;
+        padding: 10px;
+        height: 20vh;
+    }
+    .container{
+        margin-right: 180px;
+        margin-top: 140px;
+
+    }
+    .para-name{
+        padding-left: 10px;
+        padding-top: 10px;
+        width: 60%;
+    }
+    .image-one{
+        width: 130%;
+        position: absolute;
+        top: 10px;
+        left: -45px;
+    }
+    .portfolio-div{
+        width: 30vh;
+        height: 30vh;
+        border-radius: 50%;
+        position: absolute;
+        top: 150px;
+        right: 0px;
+    }
+    /*about css*/
+    .about{
+        margin-top: -80%;
+    }
+    .wrap{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 30px;
+        margin-left: 15px;
+    }
+    /*project*/
+    .project-image{
+        width: 100%;
+    }
+    .projectcontent{
+        width: 40%;
+        margin-right: 5px;
+    }
+    .container-1{
+        margin-right: 10px;
+    }
+    /*form*/
+    .bloc{
+        width: 70%;
+    }
+    .footer{
+        width: 92%;
+    }
+}
+/*media for mobile with width 480px*/
+
+@media (max-width: 480px){
+    .nav{
+         
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--nav-color);
+        top: 0px; 
+        width: 130%;
+        padding: 20px;
+        height: 20vh;
+    }
+    .container{
+
+        margin-top: 200px;
+        margin-left: 20px;
+
+    }
+    .para-name{
+        padding-left: 10px;
+        padding-top: 10px;
+        width: 100%;
+    }
+    .image-one{
+        width: 130%;
+        position: absolute;
+        top: 10px;
+        left: -45px;
+    }
+    .portfolio-div{
+        width: 30vh;
+        height: 30vh;
+        border-radius: 50%;
+        position: absolute;
+        top: 220px;
+        right: -35%;
+    }
+    /*about css*/
+    .about{
+        margin-top: -170%;
+    }
+    .wrapcontent{
+        width: 100%;
+    }
+    .wrap{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 30px;
+        column-gap: 70px;
+       
+    }
+    /*project*/
+    .project-image{
+        width: 100%;
+    }
+    .projectcontent{
+        width: 65%;
+        margin-right: 5px;
+    }
+    .container-1{
+        width: 130%;
+        display: flex;
+       
+    }
+    /*form*/
+    .bloc{
+        width: 120%;
+    }
+    .footer{
+        width: 120%;
+    }
+  .deco{
+    width: 40%;
+    height: 40vh;
+    
+  }
+}
